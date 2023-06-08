@@ -1,7 +1,7 @@
 # Deploying the Sparta app and connecting to the Database
 
 ## Creating a Vagrant file
-* In VScode, bring up the terminal and change the launch profile to bash. Then enter the command ```vagrant init```
+* In VScode, bring up the terminal and change the launch profile to bash. Then enter the command ```vagrant init``` to bring up a vagrant file
 
 ## Sparta app
 We were sent the app folders by the developers to use. The folders contained the configurations files for the app and database.
@@ -47,7 +47,7 @@ We were sent the app folders by the developers to use. The folders contained the
 ## Shell script for DB
 * The shell script for the database should look like this
 
-![Alt text](db%20shell.png)
+![Alt text](db%20shell%203.png)
 
 * The first part follows the same as the app with update and upgrade
 * Then we provide a public key for Mongo
