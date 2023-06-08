@@ -1,3 +1,5 @@
+# Deploying the Sparta app and connecting to the Database
+
 ## Creating a Vagrant file
 * In VScode, bring up the terminal and change the launch profile to bash. Then enter the command ```vagrant init```
 
