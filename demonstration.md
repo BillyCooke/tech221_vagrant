@@ -1,5 +1,7 @@
 # Deploying the Sparta app and connecting to the Database
 
+## Why did we do this?
+
 ## Creating a Vagrant file and download app folders
 * In VScode, bring up the terminal and change the launch profile to bash. Then enter the command ```vagrant init``` to bring up a vagrant file
 * Download the folders from the developers and unzip them
@@ -66,6 +68,9 @@
 * Use ```vagrant ssh db``` to access the database VM
 * Type ```sudo nano /etc/mongod.conf``` to open the mongo configuration file
 * Scroll to the ```bindip``` and change it to ```0.0.0.0```
+
+![Alt text](mongo%20bind%20ip%202.png)
+
 * Then we need to restart and enable mongo using ```sudo systemctl restart mongod``` and ```sudo systemctl enable mongod```
 * Next we need to open another Git Bash terminal and use ```vagrant ssh app```
 * In this we need to do ```sudo nano .bashrc``` to open the .bashrc file and create an environment variable
@@ -77,3 +82,10 @@
 * To view the posts page enter this IP ```192.168.10.100:3000/posts``` into a browser
 
 ![Alt text](posts.png)
+
+* Why did we do this? prepping for launch app on AWS, learning Linux, why 2 tier is good
+* State what the app and database is - mongo database
+* Maybe say what a port is
+* Add some screenshots of the database set up
+* Explain what the env variable does - connects the two, it tells app where it needs to go to get the information
+* Prep to explain seeding
