@@ -4,7 +4,9 @@
 * In VScode, bring up the terminal and change the launch profile to bash. Then enter the command ```vagrant init``` to bring up a vagrant file
 * Download the folders from the developers and unzip them
 * Then move the folders from your downloads to the same directory that your vagrant file is in
-* Now we need to change the conifguration in the vagrant file
+* Now we need to change the configuration in the vagrant file
+
+![Alt text](vagrant%20file%20original.png)
 
 ## App configuration
 ![Alt text](vagrant%20app.png)
