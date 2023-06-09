@@ -83,9 +83,9 @@
 
 ![Alt text](posts.png)
 
-* Why did we do this? prepping for launch app on AWS, learning Linux, why 2 tier is good
+<!-- * Why did we do this? prepping for launch app on AWS, learning Linux, why 2 tier is good
 * State what the app and database is - mongo database
 * Maybe say what a port is
 * Add some screenshots of the database set up
 * Explain what the env variable does - connects the two, it tells app where it needs to go to get the information
-* Prep to explain seeding
+* Prep to explain seeding -->
