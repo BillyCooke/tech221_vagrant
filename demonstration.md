@@ -1,11 +1,8 @@
 # Deploying the Sparta app and connecting to the Database
 
-## Creating a Vagrant file
+## Creating a Vagrant file and download app folders
 * In VScode, bring up the terminal and change the launch profile to bash. Then enter the command ```vagrant init``` to bring up a vagrant file
-
-## Sparta app
-We were sent the app folders by the developers to use. The folders contained the configurations files for the app and database.
-* Download the folders and unzip them
+* Download the folders from the developers and unzip them
 * Then move the folders from your downloads to the same directory that your vagrant file is in
 * Now we need to change the conifguration in the vagrant file
 
